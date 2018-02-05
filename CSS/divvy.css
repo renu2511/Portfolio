@@ -1,0 +1,282 @@
+*
+{
+	margin: 0;
+	padding:0;
+}
+
+body
+{
+	width:100%;
+	height:auto;
+	font-family: 'Lato', sans-serif;
+	font-weight:lighter;
+}
+
+#container
+{
+	width:100%;
+	height: auto;
+	/*background-color: antiquewhite;*/
+}
+
+/*sidebar LHS*/
+
+aside
+{
+	width:30%;
+	height:900px;
+	float:left;
+	position: fixed;
+}
+
+/*aside p
+
+{
+	padding: 1% 0 0.5% 5%;
+}
+*/
+#mypic
+{
+	width:200px;
+	height:200px;
+	/*background-color: red;*/
+	margin:8% 0 8% 8%;
+}
+
+#logo
+{
+	
+	border-radius: 50%;
+	
+}
+
+#info
+{
+	width:300px;
+	height:200px;
+	/*background-color: red;*/
+	margin:8% 0 8% 8%;
+}
+
+h3
+{
+	font-weight: lighter;
+	padding:2% 0 2% 0;
+	color:cornflowerblue;
+}
+
+h4
+{
+	font-weight: lighter;
+}
+
+
+/*RHS  about content*/
+
+#banner
+{
+	Height:250px;
+	width:70%;
+	background-color:#F8F8F8;
+}
+
+#about
+{
+	width:70%;
+	height:auto;
+	/*background-color: bisque;*/
+	float:right;
+}
+
+/*navigation*/
+
+header
+{
+	width:100%;
+	height:80px;
+	padding-top: 3%;
+	/*background-color: blanchedalmond;*/
+}
+
+nav
+{
+	width:100%;
+	height:70px;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav ul li
+{
+	display:inline;
+	padding:3% 3% 0 0;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	color:#333;
+	
+}
+
+nav ul li a:hover
+{
+	color: cornflowerblue;
+	border-bottom: solid 2px cornflowerblue;
+}
+
+nav ul li a:active
+{
+	color: cornflowerblue;
+	border-bottom: solid 2px cornflowerblue;
+}
+
+/*about me info*/
+
+main
+{
+	width:70%;
+	height:auto;
+	
+}
+
+main p a
+{
+	text-decoration: none;
+	color: royalblue;
+}
+
+main p a:hover
+{
+	color:aquamarine;
+}
+
+p
+{
+	padding: 0.5%;
+}
+
+
+/*skills*/
+
+section
+{
+	width:70%;
+	height:200px;
+	
+}
+
+#skills1
+{
+	width:33.33%;
+	height:200px
+	/*background-color: yellow;*/
+	text-align: left;
+	float:left;
+}
+
+#skills2
+{
+	width:33.33%;
+	height:200px;
+	/*background-color: yellow;*/
+	text-align: left;
+	float:left;
+}
+
+#skills3
+{
+	width:33.33%;
+	height:200px;
+	/*background-color: yellow;*/
+	text-align: left;
+	float:left;
+}
+
+section ul
+{
+	list-style-type: none;
+}
+
+section ul li
+{
+	padding: 1%;
+}
+
+
+/*footer - social media links*/
+
+footer
+{
+	width:100%;
+	height:200px;
+}
+
+#bottom
+{
+	width:100%;
+	height:180px;
+	/*background-color: blueviolet;*/
+}
+
+#social1
+{
+	width:33.33%;
+	height:180px;
+	/*background-color: yellowgreen;*/
+	text-align: left;
+	float:left;
+}
+
+#social2
+{
+	width:33.33%;
+	height:180px;
+	/*background-color: yellow;*/
+	text-align: left;
+	float:left;
+}
+
+#social3
+{
+	width:33.33%;
+	height:180px;
+	/*background-color: wheat;*/
+	text-align: left;
+	float:left;
+}
+
+footer ul li
+{
+	
+	color:#333;
+	padding:1% 0 1% 1%;
+	list-style-type: none;
+}
+
+footer ul li a
+{
+	text-decoration: none;
+	color:#333;
+	
+	
+}
+
+footer ul li a:hover
+{
+	color:turquoise;
+}
+
+#rights
+{
+	width:100%;
+	height:20px;
+	/*background-color: turquoise;*/
+	color:darkgray;
+}
+
+
+
